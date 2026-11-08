@@ -1,0 +1,25 @@
+body,:host{--paper:#e4e1db;--ink:#272727;--purple:#454545;--orange:#363636;--blue:#414141;background:var(--paper);color:var(--ink)}
+header,footer,.tools section,.checklist>div{border-color:#aaa6a0}
+.brand-logo{width:48px;height:48px;object-fit:contain;margin-right:9px}
+.brand span{color:#ff1fc8}
+.slide-heading h1,.cover-copy h1,.end-copy strong{font-family:"Red Hat Display",system-ui,"Microsoft JhengHei",sans-serif;font-weight:900;letter-spacing:-.065em}
+.slide-heading h1{font-size:clamp(32px,5vw,78px)}
+.slide-heading{border-top:2px solid #666;padding-top:20px}
+.cover-copy h1{font-size:clamp(58px,9vw,132px)}
+.cover-art .cover-still{height:auto;aspect-ratio:4/5;object-fit:cover;object-position:60% center}
+.slide img{filter:none;border-radius:0}
+.cover-art{padding:0}
+.tool-names strong,.tool-names strong:nth-child(n){color:#292929}
+.viewfinder,.lab-poster,.title-shot{background:#292929;color:#f4f1ed}
+.viewfinder i{background:#d7d3ca}
+.motion-demo[data-mode="3"]:after{background:#777}
+.split blockquote{border-color:#555}
+#progress{background:#303030}
+button,.navigation button,button:hover,#notes{background:#f3f1ec;color:#292929;border-color:#999}
+button:focus-visible,a:focus-visible{outline-color:#444}
+
+.cover-art .cover-still{filter:none;aspect-ratio:auto;object-fit:contain}
+.framing .framing-still{aspect-ratio:16/9;filter:none}.framing .framing-2{object-position:36% 29%;object-fit:cover;scale:1.35;transform-origin:36% 29%}.framing figure{overflow:hidden}.framing figcaption{position:relative;background:var(--paper)}
+.film-move{display:block;width:min(100%,680px);height:auto;aspect-ratio:16/9;background:#222}
+
+.rhythm .rhythm-number{background:#ff1fc8;color:#292929}
